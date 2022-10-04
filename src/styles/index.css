@@ -106,6 +106,10 @@
   left: 2px;
   top: 2px;
   filter: blur(32px);
+  -webkit-filter: blur(32px);
+  -moz-filter: blur(32px);
+  -ms-filter: blur(32px);
+  transform: translate3d(0, 0, 0);
   z-index: -2;
 }
 .small-blob__two {
@@ -118,6 +122,10 @@
   right: 2px;
   bottom: 2px;
   filter: blur(32px);
+  -webkit-filter: blur(32px);
+  -moz-filter: blur(32px);
+  -ms-filter: blur(32px);
+  transform: translate3d(0, 0, 0);
   z-index: -2;
 }
 
@@ -139,6 +147,10 @@
   left: -290px;
   top: -172px;
   filter: blur(168px);
+  -webkit-filter: blur(168px);
+  -moz-filter: blur(168px);
+  -ms-filter: blur(168px);
+  transform: translate3d(0, 0, 0);
 }
 .blob-two {
   position: absolute;
@@ -149,6 +161,10 @@
   left: -180px;
   top: 204px;
   filter: blur(112px);
+  -webkit-filter: blur(112px);
+  -moz-filter: blur(112px);
+  -ms-filter: blur(112px);
+  transform: translate3d(0, 0, 0);
 }
 .blob-three {
   position: absolute;
@@ -159,6 +175,10 @@
   right: -440px;
   bottom: 94px;
   filter: blur(200px);
+  -webkit-filter: blur(200px);
+  -moz-filter: blur(200px);
+  -ms-filter: blur(200px);
+  transform: translate3d(0, 0, 0);
 }
 .blob-four {
   position: absolute;
@@ -169,6 +189,10 @@
   right: -218px;
   bottom: -254px;
   filter: blur(168px);
+  -webkit-filter: blur(168px);
+  -moz-filter: blur(168px);
+  -ms-filter: blur(168px);
+  transform: translate3d(0, 0, 0);
 }
 
 .blob-wrapper {
@@ -235,6 +259,10 @@
     left: -104px;
     top: -24px;
     filter: blur(80px);
+    -webkit-filter: blur(80px);
+    -moz-filter: blur(80px);
+    -ms-filter: blur(80px);
+    transform: translate3d(0, 0, 0);
   }
   .blob-two {
     position: absolute;
@@ -245,6 +273,10 @@
     left: -40px;
     top: 152px;
     filter: blur(56px);
+    -webkit-filter: blur(56px);
+    -moz-filter: blur(56px);
+    -ms-filter: blur(56px);
+    transform: translate3d(0, 0, 0);
   }
   .blob-three {
     position: absolute;
@@ -255,6 +287,10 @@
     right: -128px;
     bottom: 96px;
     filter: blur(80px);
+    -webkit-filter: blur(80px);
+    -moz-filter: blur(80px);
+    -ms-filter: blur(80px);
+    transform: translate3d(0, 0, 0);
   }
   .blob-four {
     position: absolute;
@@ -265,5 +301,9 @@
     right: -128px;
     bottom: 24px;
     filter: blur(56px);
+    -webkit-filter: blur(56px);
+    -moz-filter: blur(56px);
+    -ms-filter: blur(56px);
+    transform: translate3d(0, 0, 0);
   }
 }
