@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@font-face {
+  font-family: Logo;
+  src: url(../fonts/Stanley.otf);
+}
+
+@font-face {
+  font-family: DopeSerif-M;
+  src: url(../fonts/FHAmpersandText-Medium.ttf);
+}
+
+@font-face {
+  font-family: DopeSerif-R;
+  src: url(../fonts/FHAmpersandText-Regular.ttf);
+}
+
+.main {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+  /* align-items: center; */
+  justify-content: center;
+
+  text-align: center;
+  color: black;
+
+  max-width: 32vw;
+}
+
+.swyft-logo {
+  font-family: "Logo";
+  font-size: 6rem;
+  letter-spacing: 4px;
+}
+
+.description {
+  font-family: "DopeSerif-M";
+  font-size: 2rem;
+  line-height: 125%;
+  opacity: 70%;
+}
+
+.description-secondary {
+  font-family: "DopeSerif-R";
+  font-size: 1.5rem;
+  line-height: 150%;
+  opacity: 70%;
+}
+.stealth-description {
+  font-family: "DopeSerif-R";
+  font-size: 1rem;
+  color: black;
+  line-height: 150%;
+  opacity: 70%;
+}
+
+.cta {
+  background: white;
+  opacity: 70%;
+  padding: 1.5rem 2rem;
+  outline: none;
+  border: none;
+  border-radius: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.button {
+  text-decoration: none;
+  font-family: "DopeSerif-M";
+  font-size: 1.5rem;
+  color: black;
+  opacity: 100%;
+  border: none;
+}
+
+.button-container {
+  position: relative;
+  background: transparent;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.small-blob__one {
+  position: absolute;
+  background-color: #9ab6ff;
+  opacity: 40%;
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+  left: 2px;
+  top: 2px;
+  filter: blur(32px);
+  z-index: -2;
+}
+.small-blob__two {
+  position: absolute;
+  background-color: #ffd19a;
+  opacity: 40%;
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+  right: 2px;
+  bottom: 2px;
+  filter: blur(32px);
+  z-index: -2;
+}
+
+.blobs {
+  position: relative;
+  background: transparent;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.blob-one {
+  position: absolute;
+  background-color: #ff9a9a;
+  border-radius: 100%;
+  height: 500px;
+  width: 500px;
+  left: -290px;
+  top: -172px;
+  filter: blur(168px);
+}
+.blob-two {
+  position: absolute;
+  background-color: #9ab6ff;
+  border-radius: 100%;
+  height: 290px;
+  width: 290px;
+  left: -180px;
+  top: 204px;
+  filter: blur(112px);
+}
+.blob-three {
+  position: absolute;
+  background-color: #9ab6ff;
+  border-radius: 100%;
+  height: 590px;
+  width: 590px;
+  right: -440px;
+  bottom: 94px;
+  filter: blur(200px);
+}
+.blob-four {
+  position: absolute;
+  background-color: #ffd19a;
+  border-radius: 100%;
+  height: 500px;
+  width: 500px;
+  right: -218px;
+  bottom: -254px;
+  filter: blur(168px);
+}
+
+.blob-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/noise.png");
+  opacity: 4%;
+
+  z-index: -1;
+}
+
+@media (max-width: 1280px) {
+  .home {
+    row-gap: 3.5rem;
+
+    max-width: 80vw;
+  }
+
+  .swyft-logo {
+    font-family: "Logo";
+    font-size: 3rem;
+    letter-spacing: 4px;
+  }
+
+  .description {
+    font-family: "DopeSerif-M";
+    font-size: 1.25rem;
+    line-height: 125%;
+    opacity: 70%;
+  }
+
+  .description-secondary {
+    font-family: "DopeSerif-R";
+    font-size: 1rem;
+    line-height: 150%;
+    opacity: 70%;
+  }
+  .stealth-description {
+    font-family: "DopeSerif-R";
+    font-size: 0.75rem;
+    color: black;
+    line-height: 150%;
+    opacity: 70%;
+  }
+
+  .button {
+    text-decoration: none;
+    font-family: "DopeSerif-M";
+    font-size: 1rem;
+    color: black;
+    opacity: 100%;
+  }
+
+  .blob-one {
+    position: absolute;
+    background-color: #ff9a9a;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    left: -104px;
+    top: -24px;
+    filter: blur(80px);
+  }
+  .blob-two {
+    position: absolute;
+    background-color: #9ab6ff;
+    border-radius: 100%;
+    height: 104px;
+    width: 104px;
+    left: -40px;
+    top: 152px;
+    filter: blur(56px);
+  }
+  .blob-three {
+    position: absolute;
+    background-color: #9ab6ff;
+    border-radius: 100%;
+    height: 256px;
+    width: 256px;
+    right: -128px;
+    bottom: 96px;
+    filter: blur(80px);
+  }
+  .blob-four {
+    position: absolute;
+    background-color: #ffd19a;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    right: -128px;
+    bottom: 24px;
+    filter: blur(56px);
+  }
+}
